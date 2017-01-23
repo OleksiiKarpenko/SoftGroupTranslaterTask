@@ -12,17 +12,13 @@ class OfflineVC: BaseVC, UITextFieldDelegate {
     
     @IBOutlet weak var textForTranslateTF: UITextField!
     @IBOutlet weak var translatedLabel: UILabel!
-    
     @IBOutlet weak var translateBtnOutlet: BaseButton!
-    
     @IBOutlet weak var onlineBtnOutlet: BaseButton!
-    
     
     var offlineMechanic = OfflinePart ()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         self.textForTranslateTF.delegate = self
         self.textForTranslateTF.attributedPlaceholder = NSAttributedString(string: "Please write english text here...", attributes: [NSFontAttributeName:UIFont(name: "Times New Roman", size: 29.0)!])
     }
@@ -53,7 +49,7 @@ class OfflineVC: BaseVC, UITextFieldDelegate {
     }
     
     @IBAction func onlineBtnPressed(_ sender: Any) {
-        let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc: OnlineVC = storyboard.instantiateViewController(withIdentifier: "OnlineVC") as! OnlineVC
         self.present(vc, animated: true, completion: nil)
     }

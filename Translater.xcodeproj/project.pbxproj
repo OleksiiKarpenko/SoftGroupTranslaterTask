@@ -81,7 +81,6 @@
 			children = (
 				8A79755A1E35447400B05F67 /* Controllers */,
 				8A7975351E324C6800B05F67 /* AppDelegate.swift */,
-				8A7975371E324C6800B05F67 /* HomeVC.swift */,
 				8A7975581E35366E00B05F67 /* OfflinePart.swift */,
 				8A7975521E34C16B00B05F67 /* OnlinePart.swift */,
 				8A7975501E34AAB900B05F67 /* Constants.swift */,
@@ -109,6 +108,7 @@
 			children = (
 				8A7975491E33878500B05F67 /* OnlineVC.swift */,
 				8A7975471E33874400B05F67 /* OfflineVC.swift */,
+				8A7975371E324C6800B05F67 /* HomeVC.swift */,
 				8A79755B1E35570000B05F67 /* BaseVC.swift */,
 			);
 			name = Controllers;

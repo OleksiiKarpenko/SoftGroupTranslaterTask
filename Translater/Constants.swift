@@ -13,9 +13,6 @@ let BASE_URL = "https://translate.yandex.net/api/v1.5/tr.json/translate?"
 let LANG = "lang=ru&"
 let API_KEY = "key="
 let APP_KEY = "trnsl.1.1.20170122T085303Z.4cf1385ac88d15c5.b2eb5b07f5307b3768bd8e8ddd5857ad011a0e1a"
-let TEXT = "&text="
-let COSTUMER_TEXT = ""
-
 let PARAMETERS: Parameters = [
     "Host": "translate.yandex.net",
     "Accept" : "*/*",
